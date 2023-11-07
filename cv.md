@@ -35,12 +35,12 @@ const bHex = b.toString(16).padStart(2, '0').toUpperCase();
 * Baranovichi State University
 * [CS50](https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA)
 * Udemy The Complete Python Course From Zero To Hero
-* Base course C# [Code Basics] (code-basics.com)
-* RS Schools Course «JavaScript/Front-end. Stage 0» https://app.rs.school/certificate/vp7jhg4j
+* Base course C# [Code Basics](code-basics.com)
+* [RS Schools Course «JavaScript/Front-end. Stage 0»](https://app.rs.school/certificate/vp7jhg4j)
 * ## **Language**
 * **Belarusian**
 * **Russian**
 * **Polish**
 * **English**
 ## **English**
-**B2** - Upper Intermediate https://www.efset.org/cert/wgiKe1
+**B2** - [Upper Intermediate](https://www.efset.org/cert/wgiKe1)
