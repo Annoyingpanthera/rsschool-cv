@@ -1,11 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Andrei Splendzer - CV</title>
+    <link rel="stylesheet" type="text/css" href="/slick-1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="/slick-1.8.1/slick/slick.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
 
+<body>
+    <main>
+        <div class="container-centered">
+            <div class="container">
+                <header>
+                    <h1>Andrei Splendzer<br>Front-end</h1>
+                </header>
+                <div class="column">
+                    <div class="left-column">
+                        <div class="profile-section">
+                            <div class="profile-picture" style="background-image: url(andrej-splender.jpg);"></div>
+                        </div>
+                        <section id="contact">
+                            <h2>Contact Information</h2>
+                            <ul>
+                                <li><span class="sub-heading">Location:</span> Poland, Warsaw</li>
+                                <li><span class="sub-heading">Email:</span> Shplendor1@gmail.com</li>
+                                <li><span class="sub-heading">Phone:</span> +48 539 950 328</li>
+                                <li><span class="sub-heading">LinkedIn:</span> Andry Splender</li>
+                                <li><span class="sub-heading">GitHub:</span> @Annoyingpanthera</li>
+                            </ul>
+                        </section>
+                        <section id="skills">
+                            <h2>Skills</h2>
+                            <ul>
+                                <li>
+                                    <div class="logo-container" data-percentage="20">
+                                      <img src="images/python-logo.png" alt="Python Logo">
+                                    </div>
+                                    <span class="text-container">Python Basic</span>
+                                  </li>
+                                <li>
+                                    <span class="logo-container" data-percentage="10">
+                                        <img src="images/c-logo.png" alt="C# Logo">
+                                    </span>
+                                    C# basic
+                                </li>
+                                <li>
+                                    <span class="logo-container" data-percentage="40">
+                                        <img src="images/html5-logo.png" alt="HTML5 Logo">
+                                    </span>
+                                    HTML5 basics
+                                </li>
+                                <li>
+                                    <span class="logo-container" data-percentage="40">
+                                        <img src="images/css-logo.png" alt="CSS Logo">
+                                    </span>
+                                    CSS basics
+                                </li>
+                                <li>
+                                    <span class="logo-container" data-percentage="40">
+                                        <img src="images/Git-Icon.png" alt="Git Logo">
+                                    </span>
+                                    Git
+                                </li>
+                            </ul>
+                        </section>
+                        <section id="languages">
+                            <h2>Languages</h2>
+                            <ul>
+                                <li>English - B2</li>
+                                <li>Polish - Basic</li>
+                                <li>Belarusian - Intermediate</li>
+                                <li>Russian - Native</li>
+                            </ul>
+                        </section>
+                    </div>
+                    <div class="right-column">
+                        <nav>
+                            <ul class="navigation">
+                              <li><a href="#about" data-text="About Me">About Me</a></li>
+                              <li><a href="#education" data-text="Education">Education</a></li>
+                              <li><a href="#code-example" data-text="Code Example">Code Example</a></li>
+                            </ul>
+                          </nav>
+
+                        <section id="about">
+                            <h2>About Me</h2>
+                            <p><span class="sub-heading">I'm 26 years old and originally from the beautiful town of Soligorsk. Having lived in Poland for the past two years, I'm currently embarking on my journey in the IT world, although I lack practical work experience. My focus is directed towards my studies at RS School, where I'm delving deep into the realm of JavaScript. My aspirations and academic background drive me to pursue a high level of expertise in this field, with the ultimate goal of becoming a sought-after IT professional, making a meaningful impact in the ever-evolving landscape of technology.</span></p>
+                            <ul>
+                                <li>Hardworking</li>
+                                <li>Responsible</li>
+                                <li>Purposeful</li>
+                                <li>Creative</li>
+                            </ul>
+                        </section>
+                        <section id="education">
+                            <h2>Education</h2>
+                            <ul>
+                                <li><span class="sub-heading">University:</span> Baranovichi State University</li>
+                                <li><span class="sub-heading">CS50 on YouTube</span></li>
+                                <li><span class="sub-heading">Udemy:</span> The Complete Python Course From Zero To Hero</li>
+                                <li><span class="sub-heading">RSSchool:</span> JS/FE preschool 2023q2</li>
+                            </ul>
+                        </section>
+                        <section id="code-example">
+                            <h2>Code Example</h2>
+                            <pre>
+                                <code>
+    function rgb(r, g, b) {
+// Ensure that the input values are within the valid range
+r = Math.min(255, Math.max(0, r));
+g = Math.min(255, Math.max(0, g));
+b = Math.min(255, Math.max(0, b));
+
+// Convert the valid RGB values into their hexadecimal
+ representationand convert to uppercase
+const rHex = r.toString(16).padStart(2, '0').toUpperCase();
+const gHex = g.toString(16).padStart(2, '0').toUpperCase();
+const bHex = b.toString(16).padStart(2, '0').toUpperCase();
+
+// Combine the hexadecimal values
+ return rHex + gHex + bHex;
+      }
+                                </code>
+                            </pre>
+                        </section>
+                        <section id="portfolio">
+                            <h2>Portfolio</h2>
+                            <div class="slider">
+                              <div class="work">
+                                <div class="preview">
+                                  <img src="images/Project1.png" alt="Project 1">
+                                  <div class="overlay">
+                                    <a href="https://andreisplendzer.netlify.app/" target="_blank">Broklyn Library</a>
+                                  </div>
+                                </div>
+                                <h3>Project 1</h3>
+                                <p>Description of Project 1 goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                              </div>
+                              <div class="work">
+                                <div class="preview">
+                                  <img src="images/Project2.png" alt="Project 2">
+                                  <div class="overlay">
+                                    <a href="https://annoyingpanheragalleryimage.netlify.app/" target="_blank">Photo gallery</a>
+                                  </div>
+                                </div>
+                                <h3>Project 2</h3>
+                                <p>Description of Project 2 goes here. Nulla eget tincidunt lectus, at efficitur turpis.</p>
+                              </div>
+
+                            </div>
+                            <div class="slider-dots"></div>
+                          </section>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-icon">
+          <a href="https://github.com/Annoyingpanthera">
+            <img src="images/github-mark.png" alt="GitHub Logo">
+          </a>
+        </div>
+        <div class="footer-date">
+          <p>&copy; 2023</p>
+        </div>
+        <div class="footer-icon">
+          <a href="https://rs.school/js/">
+            <img src="images/rs_school_js.svg" alt="RS School Logo">
+          </a>
+        </div>
+      </footer>
+      <script type="text/javascript" src="/jquery.js"></script>
+      <script type="text/javascript" src="/slick-1.8.1/slick/slick.min.js"></script>
+      <script src="script.js"></script>
 </body>
+
 </html>
