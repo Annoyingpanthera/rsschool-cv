@@ -10,7 +10,7 @@ p, ul, li {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: #f1f1f1;
     margin: 0;
     padding: 0;
@@ -172,6 +172,7 @@ nav ul li a {
 footer {
     max-width: 1220px;
     margin: 0 auto;
+    margin-top: auto;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     padding: 20px;
@@ -309,8 +310,6 @@ footer {
     transform: scale(1.2);
     background: #cec8c8;
 }
-/* Инлайн стили, вынесенные из HTML */
-
 .profile-picture {
   background-image: url(andrej-splender.jpg);
 }
@@ -322,11 +321,10 @@ footer {
   padding: 0;
 }
 
-.language-link {
-  text-decoration: none;
-}
-
-.education-link {
+.language-link,
+.education-link,
+.project-link,
+.footer-link {
   text-decoration: none;
 }
 
@@ -335,18 +333,9 @@ footer {
   height: 350px;
 }
 
-.project-link {
-  text-decoration: none;
-}
-
-.footer-link {
-  text-decoration: none;
-}
-
 .footer-image {
   max-width: 100%;
   height: auto;
 }
-
 
 
