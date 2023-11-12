@@ -10,7 +10,7 @@ p, ul, li {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: #f1f1f1;
     margin: 0;
     padding: 0;
@@ -29,7 +29,7 @@ body {
     border-radius: 5px;
     padding: 20px;
     max-width: 1200px;
-    height: 2700px;
+    height: 1800px;
 }
 
 header {
@@ -172,6 +172,7 @@ nav ul li a {
 footer {
     max-width: 1220px;
     margin: 0 auto;
+    margin-top: auto;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     padding: 20px;
@@ -308,6 +309,33 @@ footer {
 .slick-dots li button:hover {
     transform: scale(1.2);
     background: #cec8c8;
+}
+.profile-picture {
+  background-image: url(andrej-splender.jpg);
+}
+
+.contact-section ul,
+.skills-section ul,
+.languages-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.language-link,
+.education-link,
+.project-link,
+.footer-link {
+  text-decoration: none;
+}
+
+.project-image {
+  width: 540px;
+  height: 350px;
+}
+
+.footer-image {
+  max-width: 100%;
+  height: auto;
 }
 
 
