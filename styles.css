@@ -309,5 +309,44 @@ footer {
     transform: scale(1.2);
     background: #cec8c8;
 }
+/* Инлайн стили, вынесенные из HTML */
+
+.profile-picture {
+  background-image: url(andrej-splender.jpg);
+}
+
+.contact-section ul,
+.skills-section ul,
+.languages-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.language-link {
+  text-decoration: none;
+}
+
+.education-link {
+  text-decoration: none;
+}
+
+.project-image {
+  width: 540px;
+  height: 350px;
+}
+
+.project-link {
+  text-decoration: none;
+}
+
+.footer-link {
+  text-decoration: none;
+}
+
+.footer-image {
+  max-width: 100%;
+  height: auto;
+}
+
 
 
