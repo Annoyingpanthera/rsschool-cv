@@ -1,2 +1,2 @@
 ﻿# rsschool-cv
-[Andrei Splendzer CV](https://annoying_panthera.github.io/rsschool-cv/)
+[Andrei Splendzer CV](https://annoyingpanthera.github.io/rsschool-cv/)

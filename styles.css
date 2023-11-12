@@ -1,0 +1,313 @@
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+}
+
+p, ul, li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+}
+
+.container-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 1200px;
+    height: 2700px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.column {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left-column {
+    flex: 2;
+
+    margin-left: 50px;
+}
+
+.right-column {
+    flex: 1;
+}
+
+.profile-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: 10 auto;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.sub-heading {
+    font-style: italic;
+}
+
+.logo-container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .logo-container img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .tooltip {
+    position: absolute;
+    left: -30px;
+    transform: translateX(-50%);
+    background: #333;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+  }
+
+
+
+pre {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 0;
+    overflow: auto;
+    font-size: 1rem;
+    line-height: 1.2;
+}
+
+code {
+    display: block;
+}
+
+nav {
+    text-align: center;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navigation a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #000000;
+}
+
+nav ul li a {
+    position: relative;
+    text-decoration: none;
+    color: #000;
+    transition: color 0.2s ease;
+  }
+
+  nav ul li a::before {
+    content: attr(data-text);
+    position: absolute;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #800000;
+    z-index: -1;
+    transition: width 0.2s ease;
+  }
+
+footer {
+    max-width: 1220px;
+    margin: 0 auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #979595;
+    color: #fff;
+    padding: 10px;
+  }
+
+  .footer-icon, .footer-date {
+    flex: 1;
+    text-align: center;
+  }
+
+  .footer-icon a {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .footer-icon img {
+    max-width: 50px;
+  }
+
+  .footer-date p {
+    margin: -5px;
+    font-size: 16px;
+  }
+
+.work {
+    margin-bottom: 20px;
+  }
+
+  .preview {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .preview img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+  .overlay a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .preview:hover .overlay {
+    opacity: 1;
+  }
+
+.slider {
+  position: absolute;
+    overflow: hidden;
+      width: 540px;
+      height:500px;
+    }
+
+  .work {
+    flex: 0 0 100%;
+    transition: transform 0.5s;
+  }
+
+  .slick-dots {
+    position: relative;
+    top: 470px;
+    list-style: none;
+    padding: 0;
+}
+
+.slick-dots li {
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+    font-size: 18px;
+    position: relative;
+}
+
+.slick-dots li button {
+    background: #cc3737;
+    width: 15px;
+    height: 15px;
+    border: 2px solid whitesmoke;
+    border-radius: 50%;
+    display: block;
+    transition: background 0.2s ease, transform 0.2s ease;
+    top: 50%;
+    left: 50%;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+}
+
+.slick-dots li button::before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    background: #d30202c2;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: 49%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.slick-dots li.slick-active button {
+    background: #000000;
+    transform: scale(1.2);
+}
+
+.slick-dots li button:hover {
+    transform: scale(1.2);
+    background: #cec8c8;
+}
+
+
